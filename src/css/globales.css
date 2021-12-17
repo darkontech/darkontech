@@ -1,0 +1,54 @@
+/* GLOBALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway';
+}
+
+
+/* :root {} */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
+
+a {
+    color: floralwhite;
+}
+
+@font-face {
+    font-family: 'glitch';
+    src: url(../fonts/Glitch-inside.otf);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Syncopate_bold';
+    src: url(../fonts/Syncopate-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Syncopate_regular';
+    src: url(../fonts/Syncopate-Regular.ttf);
+}

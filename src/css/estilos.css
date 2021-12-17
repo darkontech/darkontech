@@ -1,0 +1,304 @@
+/* contenedor principal */
+
+.contenedor {
+    background-color: rgb(17, 7, 37);
+    color: blanchedalmond;
+    width: 100%;
+}
+
+
+/* /////////////////// */
+
+
+/* configuraciones comunes a todos los contenedores principales */
+
+.header,
+.presentacion,
+.servicios,
+.trabajos_realizados,
+.historia,
+.blog,
+.contacto,
+.footer {
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px 10px;
+}
+
+.titulo_seccion {
+    width: 100%;
+    overflow: hidden;
+}
+
+.titulo_seccion h3 {
+    position: relative;
+    text-transform: capitalize;
+    width: 45%;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+
+/* //////////////////////////////////////////////////////////// */
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    background-color: rgb(14, 19, 90);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'glitch';
+    text-transform: uppercase;
+    border-radius: 50%;
+    text-shadow: cornflowerblue 2px 2px 7px, rgb(225, 13, 245) -2px -2px 8px, rgb(234, 116, 245) -2px 2px 10px;
+    box-shadow: rgb(206, 204, 204) 2px 2px 2px, rgba(130, 201, 248, 0.685) -2px -2px 2px, rgb(206, 204, 204) 2px -2px 12px, rgba(130, 201, 248, 0.685) -2px 2px 12px;
+}
+
+.nombre_empresa h1 {
+    font-family: 'glitch';
+    text-shadow: cornflowerblue 2px 2px 7px, rgb(225, 13, 245) -2px -2px 8px, rgb(234, 116, 245) -2px 2px 10px;
+}
+
+.nombre_empresa p {
+    letter-spacing: 6px;
+}
+
+.barnav ul {
+    display: flex;
+}
+
+.barnav ul li {
+    margin: 20px 10px;
+}
+
+
+/* ////// */
+
+
+/* PRESENTACION */
+
+.presentacion {
+    /* background-color: cadetblue; */
+    padding: 0;
+    position: relative;
+}
+
+.over_text {
+    background-color: rgba(12, 12, 112, 0.397);
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    font-size: 2rem;
+    text-shadow: rgb(6, 14, 250) 2px 2px 4px;
+    border: darkblue solid 2px;
+    color: rgb(128, 234, 250);
+}
+
+
+/* //////////// */
+
+
+/* SERVICIOS */
+
+.seccion_servicios {
+    display: flex;
+}
+
+.servicios_call {
+    width: 50%;
+}
+
+.servicios_call img {
+    position: relative;
+    top: 40%;
+    left: 30%;
+    width: 50%;
+}
+
+.servicios {
+    /* background-color: chocolate; */
+    width: 50%;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#acordeon input {
+    display: none;
+}
+
+#acordeon label {
+    background-color: rgba(12, 12, 112, 0.596);
+    color: whitesmoke;
+    border: darkblue solid 2px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#acordeon p {
+    width: 90%;
+    padding: 5%;
+}
+
+#acordeon div {
+    width: 90%;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 1s;
+}
+
+input#bloque1:checked~#cont1,
+input#bloque2:checked~#cont2,
+input#bloque3:checked~#cont3,
+input#bloque4:checked~#cont4,
+input#bloque5:checked~#cont5,
+input#bloque6:checked~#cont6 {
+    position: relative;
+    left: 0;
+    height: 20vh;
+    overflow-y: scroll;
+}
+
+
+/* ///////// */
+
+
+/* TRABAJOS REALIZADOS */
+
+.trabajos_realizados {
+    /* background-color: cornflowerblue; */
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card_body {
+    margin: 20px 0;
+    padding: 10px;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: rgb(102, 102, 102) 1px solid;
+    box-shadow: grey 2px 2px 2px;
+    border-radius: 10px;
+}
+
+
+/* /////////////////// */
+
+
+/* HISTORIA */
+
+.historia {
+    /* background-color: darkgray; */
+    min-height: 90vh;
+}
+
+.historia p {
+    margin: 20px;
+}
+
+
+/* //////// */
+
+
+/* BLOG */
+
+.blog {
+    /* background-color: darkgreen; */
+    min-height: 90vh;
+}
+
+
+/* //// */
+
+
+/* CONTACTO */
+
+.contacto {
+    /* background-color: darkmagenta; */
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icono a {
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    text-shadow: cornflowerblue 1px 1px 1px, rgb(225, 13, 245) -1px -1px 1px;
+}
+
+
+/* //////// */
+
+
+/* boton volver */
+
+.btn_volver {
+    font-size: 50px;
+    position: fixed;
+    bottom: 50px;
+    left: 91%;
+    text-shadow: rgb(110, 107, 106) 5px 6px 5px;
+}
+
+
+/* //////////// */
+
+
+/* FOOTER */
+
+
+/* .footer {
+    background-color: darkslateblue;
+} */
+
+
+/* ////// */
+
+@media screen and (max-width: 450px) {
+    .over_text {
+        width: 80%;
+        position: absolute;
+        top: 25%;
+        left: 7%;
+        font-size: 1.5rem;
+        border-radius: 10px;
+    }
+    #acordeon div {
+        width: 100%;
+    }
+    .servicios_call img {
+        display: none;
+    }
+    .servicios {
+        width: 100%;
+    }
+    .card_body {
+        width: 44%;
+    }
+}
