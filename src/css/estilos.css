@@ -37,6 +37,7 @@
     margin: 20px 0;
     padding: 10px;
     font-size: 2rem;
+    width: 100%;
 }
 
 
@@ -118,6 +119,16 @@
     display: flex;
 }
 
+.servicios {
+    /* background-color: chocolate; */
+    width: 50%;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .servicios_call {
     width: 50%;
 }
@@ -127,16 +138,6 @@
     top: 40%;
     left: 30%;
     width: 50%;
-}
-
-.servicios {
-    /* background-color: chocolate; */
-    width: 50%;
-    min-height: 90vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 #acordeon input {
@@ -289,13 +290,13 @@ input#bloque6:checked~#cont6 {
         font-size: 1.5rem;
         border-radius: 10px;
     }
-    #acordeon div {
+    .servicios {
         width: 100%;
     }
-    .servicios_call img {
+    .servicios_call {
         display: none;
     }
-    .servicios {
+    #acordeon div {
         width: 100%;
     }
     .card_body {
