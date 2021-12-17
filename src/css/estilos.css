@@ -303,38 +303,6 @@ input#bloque6:checked~#cont6 {
     #acordeon input {
         display: none;
     }
-    #acordeon label {
-        background-color: rgba(89, 12, 112, 0.596);
-        color: whitesmoke;
-        border: darkblue solid 2px;
-        border-radius: 5px;
-        width: 90%;
-        margin: 10px 0;
-        padding: 15px;
-        /* cursor: pointer; */
-    }
-    #acordeon p {
-        width: 90%;
-        padding: 5%;
-    }
-    #acordeon div {
-        width: 90%;
-        position: relative;
-        height: 0;
-        overflow: hidden;
-        transition: height 1s;
-    }
-    input#bloque1:checked~#cont1,
-    input#bloque2:checked~#cont2,
-    input#bloque3:checked~#cont3,
-    input#bloque4:checked~#cont4,
-    input#bloque5:checked~#cont5,
-    input#bloque6:checked~#cont6 {
-        position: relative;
-        left: 0;
-        height: 20vh;
-        overflow-y: scroll;
-    }
     .card_body {
         width: 44%;
     }
