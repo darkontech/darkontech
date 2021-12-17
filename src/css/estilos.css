@@ -293,7 +293,8 @@ input#bloque6:checked~#cont6 {
     .servicios {
         width: 100%;
     }
-    .servicios_call {
+    .servicios_call,
+    .servicios_call img {
         display: none;
     }
     #acordeon div {
