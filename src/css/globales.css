@@ -33,6 +33,10 @@ a {
     color: floralwhite;
 }
 
+input {
+    display: none;
+}
+
 @font-face {
     font-family: 'glitch';
     src: url(../fonts/Glitch-inside.otf);

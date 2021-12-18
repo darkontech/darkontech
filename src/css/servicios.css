@@ -1,0 +1,89 @@
+/* SERVICIOS */
+
+.seccion_servicios {
+    display: flex;
+}
+
+.servicios {
+    /* background-color: chocolate; */
+    width: 50%;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.servicios_call {
+    width: 50%;
+}
+
+.servicios_call img {
+    position: relative;
+    top: 40%;
+    left: 30%;
+    width: 50%;
+}
+
+
+/* 
+#acordeon label {
+    background-color: rgba(12, 12, 112, 0.596);
+    color: whitesmoke;
+    border: darkblue solid 2px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px 0;
+    padding: 15px;
+    cursor: pointer;
+} */
+
+
+/* 
+#acordeon p {
+    width: 90%;
+    padding: 5%;
+} */
+
+
+/* 
+#acordeon div {
+    width: 90%;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 1s;
+} */
+
+
+/* 
+input#bloque1:checked~#cont1,
+input#bloque2:checked~#cont2,
+input#bloque3:checked~#cont3,
+input#bloque4:checked~#cont4,
+input#bloque5:checked~#cont5,
+input#bloque6:checked~#cont6 {
+    position: relative;
+    left: 0;
+    height: 20vh;
+    overflow-y: scroll;
+} */
+
+
+/* ///////// */
+
+@media screen and (max-width: 450px) {
+    .servicios {
+        width: 100%;
+    }
+    /* .servicios_call,
+    .servicios_call img {
+        display: none;
+    } */
+    /* #acordeon div {
+        width: 100%;
+    }
+    #acordeon input {
+        display: none;
+    } */
+}
