@@ -33,7 +33,8 @@ a {
     color: floralwhite;
 }
 
-input {
+input,
+input:checked {
     display: none;
 }
 
