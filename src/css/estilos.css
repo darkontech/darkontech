@@ -78,6 +78,7 @@
 }
 
 .barnav ul {
+    width: 100%;
     display: flex;
 }
 
@@ -182,6 +183,18 @@
     text-shadow: cornflowerblue 1px 1px 1px, rgb(225, 13, 245) -1px -1px 1px;
 }
 
+.icono a:hover {
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    text-shadow: rgb(250, 251, 252) 1px 1px 3px, rgb(235, 72, 250) -1px -1px 3px;
+}
+
+.icono a:active {
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    text-shadow: rgb(250, 251, 252) 1px 1px 5px, rgb(251, 243, 252) -1px -1px 5px;
+}
+
 
 /* //////// */
 
@@ -218,6 +231,9 @@
         left: 7%;
         font-size: 1.5rem;
         border-radius: 10px;
+    }
+    .barnav ul li {
+        margin: 20px 4px;
     }
     .card_body {
         width: 44%;
