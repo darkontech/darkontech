@@ -9,9 +9,6 @@
     font-family: 'Raleway';
 }
 
-
-/* :root {} */
-
 ::-webkit-scrollbar {
     display: none;
 }
@@ -31,11 +28,6 @@ video {
 
 a {
     color: floralwhite;
-}
-
-input,
-input:checked {
-    display: none !important;
 }
 
 @font-face {

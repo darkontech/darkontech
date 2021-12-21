@@ -31,13 +31,12 @@
 }
 
 .titulo_seccion h3 {
-    position: relative;
+    /* position: relative; */
     text-transform: capitalize;
-    width: 45%;
     margin: 20px 0;
     padding: 10px;
     font-size: 2rem;
-    width: 100%;
+    /* width: 100%; */
 }
 
 
