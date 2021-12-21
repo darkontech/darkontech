@@ -19,6 +19,10 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 </head>
 
 <body>
@@ -80,7 +84,7 @@
         <!-- PRESENTACION -->
         <div class="presentacion">
             <img src="./src/imgs/main_photo.jpg" alt="Darcontech press">
-            <div class="over_text">
+            <div class="over_text" data-aos="flip-left" data-aos-duration="3000">
                 <p>La batalla por la supervivencia de tu negocio ya a comenzado...</p>
             </div>
         </div>
@@ -90,11 +94,11 @@
         <div class="seccion_servicios">
 
 
-            <div class="titulo_seccion">
+            <div class="titulo_seccion" data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="center-bottom">
                 <h3>servicios</h3>
             </div>
 
-            <div class="acordeon">
+            <div class="acordeon" data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
 
                 <div class="bloque activo">
                     <h2 class="h2">Diseñamos tu paina web</h2>
@@ -127,7 +131,7 @@
                 </div>
 
             </div>
-            <div class="servicios_call">
+            <div class="servicios_call" data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
                 <img src="./src/imgs/call.png" alt="">
             </div>
 
@@ -140,7 +144,7 @@
             <div class="titulo_seccion">
                 <h3>trabajos realizados</h3>
             </div>
-            <div class="card_body">
+            <div class="card_body" data-aos="fade-up-right" data-aos-duration="1000">
 
                 <div class="card_img">
                     <a href="https://cyberkrane.github.io/Alan-Tattoo/" target="_blank" rel="noopener noreferrer">
@@ -152,7 +156,7 @@
 
                 </div>
             </div>
-            <div class="card_body">
+            <div class="card_body" data-aos="fade-up-right" data-aos-duration="2500">
 
                 <div class="card_img">
                     <a href="https://cyberkrane.github.io/Vivero-flor-de-abi/" target="_blank" rel="noopener noreferrer">
@@ -164,7 +168,7 @@
 
                 </div>
             </div>
-            <div class="card_body">
+            <div class="card_body" data-aos="fade-up-right" data-aos-duration="3500">
 
                 <div class="card_img">
                     <a href="https://cyberkrane.github.io/webApp-gastro/" target="_blank" rel="noopener noreferrer">
@@ -177,7 +181,7 @@
 
                 </div>
             </div>
-            <div class="card_body">
+            <div class="card_body" data-aos="fade-up-right" data-aos-duration="5000">
 
                 <div class="card_img">
                     <a href="https://cyberkrane.github.io/NG-NEW/" target="_blank" rel="noopener noreferrer">
@@ -250,8 +254,15 @@
 
     </div>
 
-
+    <!-- my scripts -->
     <script src="./src/js/servicios.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

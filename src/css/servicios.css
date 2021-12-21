@@ -81,18 +81,24 @@
 
 .acordeon .bloque.activo .contenido {
     height: 4rem;
-    color: rgb(126, 190, 61);
+    color: aliceblue;
 }
 
 
 /* ///////// */
 
 @media screen and (max-width: 450px) {
+    .seccion_servicios,
     .servicios {
         width: 100%;
     }
     .servicios_call,
     .servicios_call img {
         display: none;
+    }
+    .acordeon {
+        width: 100vw;
+        max-width: 95vw;
+        margin: 10px auto;
     }
 }
