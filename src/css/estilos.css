@@ -144,11 +144,31 @@
 
 .historia {
     /* background-color: darkgray; */
-    min-height: 90vh;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.historia_text {
+    width: 60%;
+    padding: 20px;
 }
 
 .historia p {
-    margin: 20px;
+    margin: 30px auto;
+}
+
+.historia img {
+    width: 15%;
+    object-fit: cover;
+}
+
+.historia .left {
+    object-position: left;
+}
+
+.historia .rigth {
+    object-position: right;
 }
 
 
