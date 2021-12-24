@@ -150,7 +150,7 @@
 }
 
 .historia_text {
-    width: 60%;
+    width: 70%;
     padding: 20px;
 }
 
@@ -159,16 +159,9 @@
 }
 
 .historia img {
-    width: 15%;
+    width: 22%;
     object-fit: cover;
-}
-
-.historia .left {
-    object-position: left;
-}
-
-.historia .rigth {
-    object-position: right;
+    object-position: center;
 }
 
 
@@ -256,5 +249,23 @@
     }
     .card_body {
         width: 44%;
+    }
+    .historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .historia_text {
+        width: 90%;
+        padding: 20px;
+    }
+    .historia p {
+        margin: 30px auto;
+    }
+    .historia img {
+        width: 80%;
+        object-fit: cover;
+        margin: 0 auto;
+        /* object-position: center; */
     }
 }

@@ -38,7 +38,7 @@
 
 .acordeon .bloque {
     margin: 0 0 1rem;
-    padding: 1rem;
+    /* padding: 1rem; */
     color: aliceblue;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -100,5 +100,8 @@
         width: 100vw;
         max-width: 95vw;
         margin: 10px auto;
+    }
+    .acordeon .bloque.activo .contenido {
+        height: 6rem;
     }
 }
